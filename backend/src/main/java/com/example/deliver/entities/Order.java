@@ -18,15 +18,15 @@ import javax.persistence.Table;
 @Table(name = "tb_order")
 public class Order implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final Long serialVersionUID = 1L;
 
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	private String address;
 	private Double latitude;
-	private Double longitude;
+	private Double Longitude;
 	private Instant moment;
 	private OrderStatus status;
 	
@@ -39,21 +39,21 @@ public class Order implements Serializable {
 	public Order() {
 	}
 
-	public Order(long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
+	public Order(Long id, String address, Double latitude, Double Longitude, Instant moment, OrderStatus status) {
 		super();
 		this.id = id;
 		this.address = address;
 		this.latitude = latitude;
-		this.longitude = longitude;
+		this.Longitude = Longitude;
 		this.moment = moment;
 		this.status = status;
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -74,11 +74,11 @@ public class Order implements Serializable {
 	}
 
 	public Double getLongitude() {
-		return longitude;
+		return Longitude;
 	}
 
-	public void setLongitude(Double longitude) {
-		this.longitude = longitude;
+	public void setLongitude(Double Longitude) {
+		this.Longitude = Longitude;
 	}
 
 	public Instant getMoment() {
