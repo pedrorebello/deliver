@@ -15,7 +15,7 @@ function Home() {
             Choose your order and you will <br/> 
             receive it in a few minutes!
           </h3>
-          <a className="home-btn-order" href="">.
+          <a className="home-btn-order" href="">
             ORDER HERE
           </a>
         </div>
