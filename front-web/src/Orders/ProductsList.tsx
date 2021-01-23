@@ -1,4 +1,3 @@
-import './styles.css';
 import ProductCard from './ProductCard';
 import { Product } from "./types" 
 

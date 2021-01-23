@@ -1,4 +1,3 @@
-import './styles.css';
 import { Product } from "./types";
 
 type Props = {
