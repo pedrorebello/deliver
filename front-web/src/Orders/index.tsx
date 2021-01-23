@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
-import { fetchProducts } from './api';
+import { toast } from 'react-toastify';
+import { fetchProducts, saveOrder } from './api';
 import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
 import ProductsList from './ProductsList';
 import StepsHeader from './StepsHeader';
-import './styles.css';
 import { OrderLocationData, Product } from './types';
 import Footer from '../Footer';
 import { checkIsSelected } from './helpers';
+import './styles.css';
 
 function Orders() {
   
@@ -21,7 +22,9 @@ function Orders() {
   useEffect( () => {
     fetchProducts()
     .then(response => setProducts(response.data))
-    .catch(error => console.log(error));
+    .catch(() => {
+      toast.warning('Error: Faild to list products');
+    })
   }, [] );
   
   const handleSelectProduct = (product: Product) => {
@@ -33,6 +36,22 @@ function Orders() {
     } else {
       setSelectedProducts(previous => [...previous, product]);
     }
+  }
+  
+  const handleSubmit = () => {
+    const productsIds = selectedProducts.map(({ id }) => ({ id }));
+    const payload = {
+      ...orderLocation!,
+      products: productsIds
+    }
+  
+    saveOrder(payload).then((response) => {
+      toast.error(`Order sent! Nº ${response.data.id}`);
+      setSelectedProducts([]);
+    })
+      .catch(() => {
+        toast.warning('Error: failed to complete order');
+      })
   }
   
   return (
@@ -48,6 +67,7 @@ function Orders() {
         <OrderSummary 
           amount={selectedProducts.length} 
           totalPrice={totalPrice}
+          onSubmit={handleSubmit}
         />
       </div>
       <Footer />
