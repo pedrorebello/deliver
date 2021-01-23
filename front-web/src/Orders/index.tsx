@@ -18,7 +18,7 @@ function Orders() {
   const totalPrice = selectedProducts.reduce((sum, item) => {
     return sum + item.price;
   }, 0);
-
+  
   useEffect( () => {
     fetchProducts()
     .then(response => setProducts(response.data))
