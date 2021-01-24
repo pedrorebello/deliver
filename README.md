@@ -18,7 +18,7 @@ The application consists of a food delivery app, where orders can be made by cho
 ![Web 3](https://github.com/pedrorebello/fooddelivery/blob/main/assets/scr-map.jpg)
 
 ## Conceptual model
-![Conceptual model](https://github.com/pedrorebello/fooddelivery/assets/model.jpg)
+![Conceptual model](https://github.com/pedrorebello/fooddelivery/blob/main/assets/model.jpg)
 
 # Technologies used
 ## Back end
