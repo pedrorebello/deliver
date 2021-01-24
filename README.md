@@ -5,9 +5,9 @@
 
 https://pedro-rebello-fooddelivery.netlify.app/
 
-Food Deivery is a full stack web application built during the 2nd edition of **DevSuperior Week** (#sds2), event organized by [DevSuperior](https://devsuperior.com "DevSuperior website").
+Food Delivery is a full-stack web application built during the 2nd edition of DevSuperior Week, an event organized by [DevSuperior](https://devsuperior.com "DevSuperior website").
 
-The application consists of a food delivery app, where orders can be made by choosing the products from a menu and selecting the delivery address, which can be seen in a map.
+The application consists of a food delivery app, where orders can be made by choosing the products from a menu and selecting the delivery address, which can be seen on a map.
 
 ## Web Layout
 
