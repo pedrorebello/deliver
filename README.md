@@ -11,11 +11,11 @@ The application consists of a food delivery app, where orders can be made by cho
 
 ## Web Layout
 
-![Web 1](https://github.com/pedrorebello/fooddelivery/assets/scr-home.jpg)
+![Web 1](https://github.com/pedrorebello/fooddelivery/blob/main/assets/scr-home.jpg)
 
-![Web 2](https://github.com/pedrorebello/fooddelivery/assets/scr-products.jpg)
+![Web 2](https://github.com/pedrorebello/fooddelivery/blob/main/assets/scr-products.jpg)
 
-![Web 3](https://github.com/pedrorebello/fooddelivery/assets/scr-map.jpg)
+![Web 3](https://github.com/pedrorebello/fooddelivery/blob/main/assets/scr-map.jpg)
 
 ## Conceptual model
 ![Conceptual model](https://github.com/pedrorebello/fooddelivery/assets/model.jpg)
