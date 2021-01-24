@@ -21,6 +21,11 @@ function ProductCard({ product, onSelectProduct, isSelected }: Props) {
         className="order-card-image"
         alt={product.name} 
       />
+      <img 
+        src="/images/risoto_funghi.jpg" 
+        className="order-card-image"
+        alt={product.name} 
+      />
       <h3 className="order-card-price">
         {formatPrice(product.price)}
       </h3>

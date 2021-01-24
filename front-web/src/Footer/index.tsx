@@ -7,7 +7,7 @@ import { ReactComponent as InstagramIcon } from './instagram.svg';
 function Footer() {
   return (
     <footer className="main-footer">
-      App desenvolvido durante a segunda edição do evento semana DevSuperior.
+      Application built during the 2nd edition of DevSuperior Week.
       <div className="footer-icons">
         <a href="https://www.youtube.com/c/DevSuperior" target="_new">
           <YouTubeIcon />

@@ -1,11 +1,11 @@
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Bacon', 49.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/pizza_bacon.jpg', 'Pizza de bacon com mussarela, orégano, molho especial e tempero da casa.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Moda da Casa', 59.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/pizza_moda.jpg', 'Pizza à moda da casa, com molho especial e todos ingredientes básicos, e queijo à sua escolha.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Pizza Portuguesa', 45.0, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/pizza_portuguesa.jpg', 'Pizza Portuguesa com molho especial, mussarela, presunto, ovos e especiarias.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Risoto de Carne', 52.0, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/risoto_carne.jpg', 'Risoto de carne com especiarias e um delicioso molho de acompanhamento.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Risoto Funghi', 59.95, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/risoto_funghi.jpg', 'Risoto Funghi feito com ingredientes finos e o toque especial do chef.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Espaguete', 35.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_espaguete.jpg', 'Macarrão fresco espaguete com molho especial e tempero da casa.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Fusili', 38.0, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_fusili.jpg', 'Macarrão fusili com toque do chef e especiarias.');
-INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Macarrão Penne', 37.9, 'https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg', 'Macarrão penne fresco ao dente com tempero especial.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Bacon Pizza', 13, 'pizza_bacon.jpg', 'Bacon pizza with mozzarella, oregano, special sauce and house seasoning.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('House-style Pizza', 15, 'pizza_house_style.jpg', 'House-style pizza, with special sauce and all basic ingredients. Cheese of your choice.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Chicken Pizza"', 13, 'pizza_chicken.jpg', 'Chicken pizza with special sauce, mozzarella, chicken  and spices.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Beef Risotto', 20, 'risotto_beef.jpg', 'Spiced beef risotto and a delicious accompanying sauce.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Funghi Risotto', 20, 'risotto_funghi.jpg', 'Funghi risotto made with fine ingredients and the chef`s special touch.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Spaghetti', 15, 'spaghetti.jpg', 'Fresh spaghetti pasta with special sauce and house seasoning.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Fusilli', 15, 'fusilli.jpg', 'Fusili pasta with a chef`s touch and spices.');
+INSERT INTO tb_product (name, price, image_Uri, description) VALUES ('Penne', 15, 'penne.jpg', 'Fresh penne pasta with special seasoning.');
 
 INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (0, -23.561680, -46.656139, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T10:00:00Z');
 INSERT INTO tb_order (status, latitude, longitude, address, moment) VALUES (1, -22.946779, -43.217753, 'Avenida Paulista, 1500', TIMESTAMP WITH TIME ZONE '2021-01-01T15:00:00Z');
