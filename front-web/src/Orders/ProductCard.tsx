@@ -17,12 +17,7 @@ function ProductCard({ product, onSelectProduct, isSelected }: Props) {
         {product.name}
       </h3>
       <img 
-        src={product.imageUri} 
-        className="order-card-image"
-        alt={product.name} 
-      />
-      <img 
-        src="/images/risoto_funghi.jpg" 
+        src={`images/${product.imageUri}`} 
         className="order-card-image"
         alt={product.name} 
       />
